@@ -30,7 +30,10 @@ clawdbot plugins install https://github.com/soimy/clawdbot-channel-dingtalk.git
 git clone https://github.com/soimy/clawdbot-channel-dingtalk.git
 cd clawdbot-channel-dingtalk
 
-# 2. 以链接模式安装 (方便修改代码后实时生效)
+# 2. 安装依赖 (必需)
+npm install
+
+# 3. 以链接模式安装 (方便修改代码后实时生效)
 clawdbot plugins install -l .
 ```
 
